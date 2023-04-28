@@ -9,6 +9,6 @@ namespace noviApp
         public string TwoLetterCode { get; set; }
         public string ThreeLetterCode { get; set; }
         public DateTime CreatedAt { get; set; }
-
+        public int CountryId { get; set; }
     }
 }
